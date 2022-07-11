@@ -1,0 +1,13 @@
+.container{
+    height: 500px;
+    width: 500px;
+    display:flex;
+}
+
+thead {
+    background-color: tan;
+}
+
+td {
+    background-color: grey;
+}
