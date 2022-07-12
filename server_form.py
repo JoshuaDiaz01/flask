@@ -13,7 +13,7 @@ def process_info():
     print('you filled this out')
 
     #redirecting to display route
-    return redirect('/tracking_info')
+    return redirect('/tracking_info')#do not render account on action route
 
 #display route
 @app.route('/tracking_info')
